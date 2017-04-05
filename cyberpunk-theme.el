@@ -90,7 +90,7 @@
       (cyberpunk-black (if (and cyberpunk-transparent-background
                                 (not (display-graphic-p))
                                 (eq system-type 'darwin))
-                           "ARGBBB000000"
+                           nil
                          "#000000"))
       (cyberpunk-black-2 "#0C1021")
       (cyberpunk-black-3 "#0A0A0A")
